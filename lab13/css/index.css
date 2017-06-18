@@ -1,0 +1,224 @@
+body{
+	width: 1280px;
+	height: 1000px;
+	 color:#0F0F0F;;
+	
+	/*background-image: url(../images/tu.jpg);*/
+	background-size: 1300px;
+	
+}
+a:link{
+	text-decoration: none;
+		color:#0F0F0F;
+		font-weight: bolder;
+	
+}
+a:hover{
+	text-decoration: underline;
+	 color: #f9f603;
+}
+ul li{
+	list-style: none;
+}
+/*页面头部*/
+.header{
+	width: 1400px;
+	height: 250px;
+	
+	position: absolute;
+	top:0px;
+	left: 0px;
+	border:3px #000 solid;
+}
+
+.h1{
+	
+	height: 215px;
+	width: 1400px;
+	background-repeat: no-repeat;
+
+}
+.h1 img{
+	height: 215px;
+	width: 1400px;
+}
+.h2{
+	border:1px solid #ff0000;
+	height: 35px;
+	width: 1400px;
+	background-image: url(../images/f3.png);
+	background-size: 1400px 35px;
+
+}
+.h2 img{
+	height: 30px;
+	width: 1300px;
+
+}
+.u2 ul li{
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+	line-height: 10px;
+}
+.v1{
+	margin-left: 30px;
+}
+.in1{
+	height: 18px;
+	background-color:#EEEEE0;
+	float: right;
+	
+	position: absolute;
+	top:220px;
+	right:65px;
+}
+.in2{
+	height:25px;
+	padding: 10px;
+	line-height:0px;
+	float: right;
+	position: absolute;
+	top:220px;
+	right: 15px;
+	
+
+}
+
+
+/*页面中部*/
+.content{
+	height: 900px;
+	width: 1400px;
+	
+	background-color: #C1C1C1;
+
+	float: left;
+	margin-top: 248px;
+}
+
+
+.m1{
+	color: 	#575757;
+	margin-left: 80px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 15px;
+	
+}
+.m1 a{
+	color: #FF0000;
+}
+
+
+.top img{
+		height: 300px;
+		width: 370px;
+		float: left;
+		margin-left: 20px;
+		margin-top:10px;
+
+}
+.top{
+	
+	height: 350px;
+	width: 400px;
+	border-bottom: 2px dashed red;
+	
+}
+h2{
+	float: left;
+	font-weight: bolder;
+
+
+}
+
+.le,.mi,.rig{
+	float: left;
+	width: 400px;
+	height: 600px;
+	border:1px solid #000;
+	margin: 30px;
+	text-align: left;
+	line-height: 25px;
+}
+
+.le h2{
+	color: #ff0000;
+}
+.mi h2{
+	color: #00FF00;
+}
+.rig{
+	color: #CD00CD;
+}
+.le,.mi,.rig ul a {
+	text-align: left;
+	list-style:disc;
+
+}
+
+.cha{
+	float: right;
+	background-color: red;
+}
+
+
+
+/*页面底部*/
+
+.footer{
+	margin-top: 30px;
+
+	width: 1200px;
+	
+	
+	
+	font-family: "宋体";
+	font-size: 14px;
+	color: #8B7E66;
+	font-weight: bolder;
+	float: left;
+}
+
+
+
+
+	.footer a{
+		font-weight: normal;
+		font-family: "宋体";
+		color: #B8860B;
+	}
+
+
+
+		.y1{
+			margin-left: 350px;
+			
+			height: 50px;
+			float: left;
+			margin-bottom: 0px;
+
+			
+		}
+		.footer img{
+			height: 1px;
+			margin-left: 380px;
+			width: 680px;
+			
+		}
+		.e1 p{
+			margin-top: 10px;
+			height: 20px;
+			width: 500px;
+			margin-left: 450px;
+			
+			
+		}
+		.e2 p{
+			height: 12px;
+			width: 500px;
+			margin-left: 490px;
+			 margin-top: 0px;
+		}
+
