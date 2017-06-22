@@ -186,9 +186,44 @@ ul li{
 	list-style: none;
 }
 
+
+.shu ul li{
+
+	list-style: none;
+	border:1px solid #000;
+	height: 30px;
+	width: 50px;
+	float: left;
+	margin-left: 5px;
+	line-height: 25px;
+	text-align: center;
+
+}
+.shu{
+	margin-left: 330px;
+	position: absolute;
+	top: 960px;
+}
+textarea{
+	position: absolute;
+	top: 1000px;
+	margin-top: 20px;
+	width: 1399px;
+	height: 150px;
+	
+	background-color:#fff;
+	border:1px dotted red;
+	font-family: '华文楷体';
+	color: red;
+	text-align:left;
+	font-size: 20px;
+
+}
+
 /*页面底部*/
 
 .footer{
+
 	margin-top: 80px;
 
 	width: 1024px;
@@ -196,7 +231,7 @@ ul li{
 	
 	position:absolute;
 	left: 150px;
-	top: 900px;
+	top: 1100px;
 	font-family: "宋体";
 	font-size: 14px;
 	color: #8C8C8C;

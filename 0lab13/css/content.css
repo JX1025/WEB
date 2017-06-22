@@ -1,10 +1,10 @@
 body{
-	width: 1280px;
-	height: 1000px;
+	width: 100%;
+	
 	 color:#0F0F0F;;
 	
-	/*background-image: url(../images/tu.jpg);*/
-	background-size: 1300px;
+	
+	
 	
 }
 a:link{
@@ -20,6 +20,8 @@ a:hover{
 ul li{
 	list-style: none;
 }
+
+
 /*页面头部*/
 .header{
 	width: 1400px;
@@ -32,16 +34,34 @@ ul li{
 }
 
 .h1{
-	
+	background-image: url(../images/1.png);
 	height: 215px;
 	width: 1400px;
 	background-repeat: no-repeat;
+	background-size: 1400px 215px;
 
 }
 .h1 img{
 	height: 215px;
-	width: 1400px;
+	width: 800px;
+	margin-left: 50px;
 }
+.innp{
+	font-weight: bolder;
+	width: 300px;
+	height: 300px;
+	float: right;
+	color: #fff;
+}
+.pp1,.pp2{
+	float: left;
+
+}
+.pp2{
+	margin-left: 30px;
+}
+
+
 .h2{
 	border:1px solid #ff0000;
 	height: 35px;
@@ -85,85 +105,127 @@ ul li{
 
 }
 
-
-/*页面中部*/
 .content{
-	height: 900px;
+	height: 1350px;
 	width: 1400px;
-	
-	background-color: #C1C1C1;
 
 	float: left;
 	margin-top: 248px;
+	background-color:#C1C1C1;
 }
-
 
 .m1{
 	color: 	#575757;
 	margin-left: 80px;
-	height: 20px;
-	line-height: 20px;
-	margin-top: 15px;
-	
+	height: 30px;
+	padding: 20px;
 }
 .m1 a{
 	color: #FF0000;
 }
 
-
-.top img{
-		height: 300px;
-		width: 370px;
-		float: left;
-		margin-left: 20px;
-		margin-top:10px;
-
-}
-.top{
-	
-	height: 350px;
-	width: 400px;
-	border-bottom: 2px dashed red;
-	
-}
-h2{
-	float: left;
-	font-weight: bolder;
-
-
-}
-
-.le,.mi,.rig{
-	float: left;
-	width: 400px;
-	height: 600px;
+.c1{
+	margin-left: 100px;
+	height: 820px;
+	width: 880px;
 	border:1px solid #000;
-	margin: 30px;
-	text-align: left;
-	line-height: 25px;
-}
-
-.le h2{
-	color: #ff0000;
-}
-.mi h2{
-	color: #00FF00;
-}
-.rig{
-	color: #CD00CD;
-}
-.le,.mi,.rig ul a {
-	text-align: left;
-	list-style:disc;
+	float: left;
 
 }
+.c1 h1{
+	text-align: center;
+	font-weight: bolder;
+	color:#9A32CD;
+	font-size: 35px;
+}
+.c1 img{
+	height: 500px;
+	width: 800px;
+	margin-left: 30px;
+}
 
-.cha{
+.c1 p{
+	line-height: 30px;
+	color: #8B7500;
+	text-indent: 2em;
+	width: 850px;
+	margin-left: 20px;
+}
+.c2{
+	height: 800px;
+	width: 350px;
+
 	float: right;
-	background-color: red;
+	margin-right: 50px;
 }
 
 
+
+.rr1{
+	width: 300px;
+	height: 500px;
+	border:1px solid #000;
+	margin-left: 10px;
+}
+.rr2{
+	width: 300px;
+	height: 250px;
+	border:1px solid #000;
+	margin-left: 10px;
+	margin-top: 65px;
+}
+.rr1 img{
+	height: 200px;
+	margin-left: 20px;
+	width: 250px;
+}
+.rr1 p{
+	color:#8B7500;
+	line-height: 30px;
+	 width: 300px;
+	 text-indent: 2em;
+}
+.rr2 ul li{
+	list-style:square;
+	color: red; 
+	line-height: 30px;
+}
+
+
+.form{
+	color:#000;
+}
+.shu{
+	width: 1400px;
+}
+.shu ul li{
+	list-style: none;
+	border:1px solid #000;
+	height: 30px;
+	width: 50px;
+	float: left;
+	margin-left: 5px;
+	line-height: 25px;
+	text-align: center;
+
+}
+.shu{
+	margin-left: 300px;
+	float: left;
+}
+textarea{
+	margin-top: 20px;
+	width: 1399px;
+	height: 150px;
+	
+	background-color:#C1C1C1;
+	border:1px dotted red;
+	font-family: '华文楷体';
+	color: red;
+	text-align:left;
+	font-size: 20px;
+
+}
 
 /*页面底部*/
 
@@ -179,6 +241,7 @@ h2{
 	color: #8B7E66;
 	font-weight: bolder;
 	float: left;
+	margin-top: 80px;
 }
 
 
@@ -193,7 +256,7 @@ h2{
 
 
 		.y1{
-			margin-left: 350px;
+			margin-left: 340px;
 			
 			height: 50px;
 			float: left;
@@ -202,9 +265,10 @@ h2{
 			
 		}
 		.footer img{
-			height: 1px;
-			margin-left: 380px;
+			
+			margin-left: 370px;
 			width: 680px;
+
 			
 		}
 		.e1 p{
